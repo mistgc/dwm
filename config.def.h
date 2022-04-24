@@ -16,7 +16,8 @@ static const unsigned int borderalpha = OPAQUE;
 
 /*nord theme*/
 /*normal*/
-static const char col_nordfg[]			="#434c5e";
+//static const char col_nordfg[]			="#434c5e";
+static const char col_nordfg[]			="#ffffff";
 static const char col_nordbg[]			="#444444";
 static const char col_nordborder[]		="#444444";
 /*Selected*/
@@ -31,8 +32,8 @@ static const char *colors[][3]      = {
 };
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
-	[SchemeNorm] = { OPAQUE, 0x01, borderalpha },
-	[SchemeSel]  = { OPAQUE, 0x01, borderalpha },
+	[SchemeNorm] = { OPAQUE, 0xd0, borderalpha },
+	[SchemeSel]  = { OPAQUE, 0xd0, borderalpha },
 };
 
 /* tagging */
