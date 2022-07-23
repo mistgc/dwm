@@ -76,7 +76,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "rofi", "-show", "drun", NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "alacritty", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x28", NULL };
 static const char *flameshot[] = {"flameshot", "gui", NULL};
