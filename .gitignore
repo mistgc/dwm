@@ -3,3 +3,4 @@ config.h
 patches/
 *.diff
 *.rej
+*.o
